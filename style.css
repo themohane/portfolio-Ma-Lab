@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #2c5364);
+  color: white;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero span {
+  color: cyan;
+}
+
+.hero h3 {
+  margin: 10px 0;
+  color: violet;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: linear-gradient(45deg, cyan, violet);
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.btn.outline {
+  border: 1px solid white;
+  background: transparent;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px;
+  text-align: center;
+}
+
+/* SKILLS */
+.skill {
+  margin: 15px auto;
+  width: 60%;
+  text-align: left;
+}
+
+.bar {
+  background: #333;
+  border-radius: 10px;
+}
+
+.bar div {
+  height: 10px;
+  background: linear-gradient(to right, cyan, violet);
+  border-radius: 10px;
+}
